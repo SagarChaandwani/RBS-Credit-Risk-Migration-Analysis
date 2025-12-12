@@ -63,7 +63,7 @@ To enable high-performance filtering over 2.5 million transaction rows, I design
 
 ### 1. Executive Home: The Strategic Pulse
 A high-level health check of the £199M portfolio designed for the C-Suite.
-![Executive Dashboard](Screenshots/1.RBS%20Strategic%20Monitor.png)
+![Executive Dashboard](Screenshots/1.%20RBS%20Strategic%20Monitor.png)
 *   **KPI Ticker:** Immediate visibility on Total Exposure, Active Customers, and the alarming 28.6% Risk Rate.
 *   **Primary Bank Market Share (Ribbon Chart):** Visualizes the loss of market dominance. The **Blue Band (RBS)** narrows significantly from 2023 to 2025, while **Orange (Monzo)** expands, indicating a loss of "Share of Wallet."
 *   **Missed Payment Trend (Line Chart):** A time-series analysis showing the volatility of financial stress. The upward trend in 2024-2025 correlates with the inflation crisis.
@@ -78,7 +78,7 @@ Deep-dive into High-LTV mortgages using a Quadrant Analysis.
 
 ### 3. Digital Migration
 Tracking the flow of capital from RBS to Competitors.
-![Migration Dashboard](Screenshots/3_Digital_Migration.png)
+![Migration Dashboard](Screenshots/3.%20Digital%20Migration%20and%20Competitors.png)
 *   **Capital Flight Analysis (Decomposition Tree):** A Root Cause Analysis of the £818K leaving RBS.
     *   **Insight:** The majority flows to **Monzo**, driven specifically by the **"Family"** and **"Young Professional"** segments.
 *   **The Retention Funnel:** A stark look at loyalty. Out of 1999 customers, only **220 (11%)** remain "RBS Loyalists" (using RBS for primary banking) in 2025.
