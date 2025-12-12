@@ -70,7 +70,7 @@ A high-level health check of the £199M portfolio designed for the C-Suite.
 
 ### 2. Credit Risk Audit: The "Forensic" View
 Deep-dive into High-LTV mortgages using a Quadrant Analysis.
-![Risk Dashboard](Screenshots/2_Credit_Risk.png)
+![Risk Dashboard](Screenshots/2. Credit Risk Audit.png)
 *   **Risk Quadrant (Scatter Plot):** A custom quadrant analysis using DAX.
     *   **Navy Dots:** Safe customers.
     *   **Orange Dots (The "Danger Zone"):** Customers with **LTV > 90%** AND **Credit Score < 650**. These are the priority targets for intervention.
