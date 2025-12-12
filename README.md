@@ -63,7 +63,7 @@ To enable high-performance filtering over 2.5 million transaction rows, I design
 
 ### 1. Executive Home: The Strategic Pulse
 A high-level health check of the £199M portfolio designed for the C-Suite.
-![Executive Dashboard](Screenshots/1_Home_Dashboard.png)
+![Executive Dashboard](Screenshots/1. RBS Strategic Monitor.png)
 *   **KPI Ticker:** Immediate visibility on Total Exposure, Active Customers, and the alarming 28.6% Risk Rate.
 *   **Primary Bank Market Share (Ribbon Chart):** Visualizes the loss of market dominance. The **Blue Band (RBS)** narrows significantly from 2023 to 2025, while **Orange (Monzo)** expands, indicating a loss of "Share of Wallet."
 *   **Missed Payment Trend (Line Chart):** A time-series analysis showing the volatility of financial stress. The upward trend in 2024-2025 correlates with the inflation crisis.
