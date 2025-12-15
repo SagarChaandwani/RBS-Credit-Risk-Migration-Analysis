@@ -34,26 +34,6 @@ RBS leadership identified two critical financial bleeds that required immediate 
 2.  **Share of Wallet (Digital Churn):** A "Silent Migration" where customers retain RBS mortgages (high friction to switch) but move their primary daily transaction activity to competitors (low friction).
 
 
-# 🏦 RBS Strategic Portfolio Monitor: Credit Risk & Digital Migration (2023-2025)
-
-Disclaimer: This is a personal portfolio project using a synthetic dataset. It is a simulation of real-world business challenges and is not affiliated with [Company Name].
-
-![Power BI](https://img.shields.io/badge/Power_BI-Desktop-yellow?style=for-the-badge&logo=power-bi)
-![SQL](https://img.shields.io/badge/SQL-Data_Validation-blue?style=for-the-badge&logo=postgresql)
-![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
-
-## 📖 Client Background & Context
-The Royal Bank of Scotland (RBS) is a historic British financial institution and a key subsidiary of the NatWest Group, serving millions of personal and business customers. As a legacy bank transitioning into the digital era, it manages vast datasets across mortgages, credit cards, and current accounts.
-
-**The Scenario:**
-The Royal Bank of Scotland (RBS) is navigating a "perfect storm" in the UK banking sector. Post-pandemic inflation has squeezed household disposable income, leading to higher default rates on mortgages. Simultaneously, digital-first "Challenger Banks" (**Monzo, Revolut**) are aggressively acquiring market share from legacy banks, specifically targeting the profitable "Young Professional" demographic.
-
-**The Business Problem:**
-RBS leadership identified two critical financial bleeds:
-1.  **Credit Risk:** A rising concentration of Non-Performing Loans (NPLs) in the North West region.
-2.  **Digital Churn:** A "Silent Migration" where customers retain RBS mortgages but move primary daily transaction activity to competitors.
-
----
 
 ## 📑 Table of Contents
 1. [Executive Summary & Impact](#-executive-summary--quantified-impact)
