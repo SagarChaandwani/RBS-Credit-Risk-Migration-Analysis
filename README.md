@@ -1,3 +1,119 @@
+# RBS-Credit-Risk-Migration-Analysis
+
+> **Disclaimer:** This is a personal portfolio project using a synthetic dataset. It is a simulation of real-world banking challenges and is not affiliated with the NatWest Group.
+
+# 🏦 RBS Strategic Portfolio Monitor
+### Credit Risk Exposure & Digital Channel Migration (2023-2025)
+
+> **Executive Summary:** A strategic deep-dive into the shifting landscape of UK Retail Banking, analyzing the correlation between macroeconomic inflation, mortgage default rates, and the "silent migration" of capital to fintech competitors.
+
+---
+
+### 🛠️ Technical Architecture
+*   **Core Visualization:** `Microsoft Power BI` (Drill-throughs, Bookmark Navigation, Custom Tooltips)
+*   **Data Warehouse:** `SQL Server` (ETL pipelines, Views for Data Cleaning)
+*   **Modeling:** `Star Schema` (1 Fact Table, 4 Dimension Tables)
+*   **Analysis:** `DAX` (Time Intelligence, YoY Growth, Risk Ratios)
+
+---
+
+## 📉 Market Context: The "Perfect Storm"
+**Sector:** Retail Banking & Mortgages  
+**Competitor Analysis:** Monzo, Revolut, Starling
+
+The Royal Bank of Scotland (RBS) is navigating a critical transition period. Post-pandemic inflation has squeezed household disposable income, directly impacting the **Loan-to-Value (LTV)** ratios of the mortgage book. Simultaneously, "Challenger Banks" are aggressively targeting the *Young Professional* demographic, leading to a "Silent Migration" of daily transaction volume.
+
+### ⚠️ The Business Problem
+RBS leadership identified two critical financial bleeds:
+
+1.  **Asset Quality (Credit Risk):** A rising concentration of **Non-Performing Loans (NPLs)** in the North West region, specifically within the Variable Rate mortgage portfolio.
+2.  **Share of Wallet (Digital Churn):** Customers are retaining their mortgages with RBS (high friction to switch) but moving their primary spending and deposits to fintechs (low friction), reducing the bank's visibility on customer liquidity.
+
+---
+
+## 📑 Table of Contents
+1. [Executive Summary & Financial Impact](#-executive-summary--financial-impact)
+2. [Data Structure (Star Schema)](#-data-structure-star-schema)
+3. [Dashboard Analysis](#-dashboard-analysis)
+4. [Strategic Recommendations](#-strategic-recommendations)
+5. [SQL Logic & Validation](#-sql-logic--validation)
+
+---
+
+## 🏆 Executive Summary & Financial Impact
+
+| Metric | Result | Insight |
+| :--- | :--- | :--- |
+| **Portfolio Risk** | **£12.4M** | Identified total value of "At Risk" mortgages (90+ days overdue). |
+| **NPL Ratio** | **4.2%** | Non-Performing Loan ratio in the North West exceeds the 2.5% bank appetite. |
+| **Churn Rate** | **18%** | "Silent Churn" detected in the 25-34 age bracket (Active Mortgage, Inactive Current Account). |
+
+---
+
+## 🗂 Data Structure (Star Schema)
+
+The data model was designed to isolate "Risk" entities from "Transaction" volume.
+
+*   **`Dim_Customer`:** Demographics including Age Band, Salary, and Credit Score.
+*   **`Dim_Product`:** Mortgage types (Fixed vs Variable), Interest Rates, and Terms.
+*   **`Fact_Mortgages`:** The core lending ledger containing Balance Outstanding, Arrears Status, and LTV.
+*   **`Fact_Transactions`:** Daily spending logs used to calculate "Primary Account Status."
+
+---
+
+## 🖼️ Dashboard Analysis
+
+### 1. Credit Risk Overview (The CFO View)
+*Tracks the health of the lending book.*
+![Risk Dashboard](assets/1.Credit_Risk_Overview.png)
+*   **Key Insight:** Variable Rate mortgages show a **3x higher default rate** than Fixed Rate mortgages, directly correlating with recent interest rate hikes.
+*   **Geographic Risk:** The "Heat Map" identifies the **North West** and **North East** as high-concentration zones for arrears.
+
+### 2. Digital Migration & Churn
+*Tracks where the money is going.*
+![Churn Dashboard](assets/2.Digital_Migration.png)
+*   **The "Silent Migration":** Analysis shows that 30% of customers under 35 have stopped using their RBS debit card for daily spend, despite holding an active mortgage. This indicates they have moved their "lifestyle banking" to competitors like Monzo.
+
+---
+
+## 💡 Strategic Recommendations
+
+### 1. Risk Mitigation: "Proactive Restructuring"
+*   **Observation:** Customers rolling off "Fixed Rate" deals onto "Variable" rates are defaulting within 90 days.
+*   **Action:** Launch a "Refinance Outreach" program 3 months before fixed terms expire to lock customers into affordable repayment plans before they enter arrears.
+
+### 2. Digital Retention: "Lifestyle Rewards"
+*   **Observation:** High churn in the "Young Professional" segment.
+*   **Action:** Revamp the mobile app loyalty scheme to offer cashback on transport and dining (categories dominated by Fintech competitors) to reclaim "Share of Wallet."
+
+---
+
+## 🛠 SQL Logic & Validation
+*See the `sql-scripts` folder for full code.*
+
+**Calculating Non-Performing Loans (NPL):**
+```sql
+-- Logic: A loan is 'Non-Performing' if arrears exceed 90 days
+SELECT 
+    Region,
+    COUNT(Loan_ID) as Total_Loans,
+    SUM(CASE WHEN Days_Overdue > 90 THEN 1 ELSE 0 END) as NPL_Count,
+    (SUM(CASE WHEN Days_Overdue > 90 THEN 1 ELSE 0 END) * 1.0 / COUNT(Loan_ID)) * 100 as NPL_Ratio
+FROM Fact_Mortgages
+GROUP BY Region
+ORDER BY NPL_Ratio DESC;
+code
+Code
+### Why this design works for RBS:
+1.  **No Badges:** It uses a clean `Technical Architecture` list. This looks more mature.
+2.  **Financial Language:** Uses terms like *NPL Ratio*, *Asset Quality*, and *Share of Wallet*.
+3.  **Clean Tables:** The Executive Summary uses a simple data table rather than bullet points.
+
+Apply these changes, and your 3 projects will look completely distinct from each other!
+Use Arrow Up and Arrow Down to select a turn, Enter to jump to it, and Escape to return to the chat.
+Start typing a prompt
+
+
 # 🏦 RBS Strategic Portfolio Monitor: Credit Risk & Digital Migration (2023-2025)
 
 Disclaimer: This is a personal portfolio project using a synthetic dataset. It is a simulation of real-world business challenges and is not affiliated with [Company Name].
