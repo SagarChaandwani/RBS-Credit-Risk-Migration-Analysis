@@ -1,5 +1,7 @@
 # 🏦 RBS Strategic Portfolio Monitor: Credit Risk & Digital Migration (2023-2025)
 
+Disclaimer: This is a personal portfolio project using a synthetic dataset. It is a simulation of real-world business challenges and is not affiliated with [Company Name].
+
 ![Power BI](https://img.shields.io/badge/Power_BI-Desktop-yellow?style=for-the-badge&logo=power-bi)
 ![SQL](https://img.shields.io/badge/SQL-Data_Validation-blue?style=for-the-badge&logo=postgresql)
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
