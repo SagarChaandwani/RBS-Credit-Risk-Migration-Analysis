@@ -1,3 +1,37 @@
+ RBS-Credit-Risk-Migration-Analysis
+
+> *Disclaimer: This is a personal portfolio project using a synthetic dataset. It is a simulation of real-world banking challenges and is not affiliated with the NatWest Group.*
+
+# 🏦 RBS Strategic Portfolio Monitor
+### Credit Risk Exposure & Digital Channel Migration (2023-2025)
+
+---
+
+### 📋 Project Specification
+| **Domain** | **Retail Banking / Risk / Strategy** |
+| :--- | :--- |
+| **Tech Stack** | `SQL Server` `Power BI` `DAX` `Star Schema` |
+| **Focus** | Non-Performing Loans (NPL) & Competitor Analysis |
+| **Status** | ✅ Complete (v1.0) |
+
+---
+
+> **🚀 Executive Brief:** A strategic deep-dive into the "Perfect Storm" facing UK Retail Banking. This analysis quantifies the correlation between macroeconomic inflation, rising mortgage default rates, and the "Silent Migration" of capital to fintech competitors.
+
+---
+
+## 📖 Client Background & Context
+
+The Royal Bank of Scotland (RBS) is a historic British financial institution and a key subsidiary of the NatWest Group. As a legacy bank transitioning into the digital era, it manages vast datasets across mortgages, credit cards, and current accounts.
+
+### 📉 Market Context: The "Perfect Storm"
+RBS is navigating a critical transition period. Post-pandemic inflation has squeezed household disposable income, leading to higher default rates on mortgages. Simultaneously, digital-first "Challenger Banks" (**Monzo, Revolut**) are aggressively acquiring market share from legacy banks, specifically targeting the profitable "Young Professional" demographic.
+
+### ⚠️ The Business Problem
+RBS leadership identified two critical financial bleeds that required immediate data intelligence:
+
+1.  **Asset Quality (Credit Risk):** A rising concentration of **Non-Performing Loans (NPLs)** in the North West region, driven by variable-rate exposure.
+2.  **Share of Wallet (Digital Churn):** A "Silent Migration" where customers retain RBS mortgages (high friction to switch) but move their primary daily transaction activity to competitors (low friction).
 
 
 # 🏦 RBS Strategic Portfolio Monitor: Credit Risk & Digital Migration (2023-2025)
